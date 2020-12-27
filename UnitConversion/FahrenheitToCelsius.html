@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Fahrenheit To Celsius</title>
+</head>
+<body>
+    <div class="column">
+        <p>Conversions</p>
+        <ul>
+            <li><a href="FahrenheitToKelvin.html">Fahrenheit To Kelvin</a></li>
+            <li><a href="MileToKilometer.html">Mile To Kilometer</a></li>
+            <li><a href="MileToNauticalMile.html">Mile To Nautical Mile</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </div>
+
+    <div class="column">
+        <p>Formula + More</p>
+        <p>(32°F − 32) × 5/9 = 0°C</p>
+        <p>The Fahrenheit scale (/ˈfɑːrənhaɪt/) is a temperature scale based on one proposed in 1724 by the 
+            physicist Daniel Gabriel Fahrenheit (1686–1736).</p>
+    </div>
+    <script>
+
+    let fahrenheit = prompt("Enter the temperature in Fahrenheit.");
+    let fToCelsius = fahrenheit - 32 * 5/9;
+    alert("Celsius = "+ fToCelsius);  
+    
+    </script>
+</body>
+</html>

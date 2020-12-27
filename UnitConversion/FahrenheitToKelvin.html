@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Fahrenheit To Kelvin</title>
+</head>
+<body>
+    <div class="column">
+        <p>Conversions</p>
+        <ul>
+            <li><a href="FahrenheitToCelsius.html">Fahrenheit To Celsius</a></li>
+            <li><a href="MileToKilometer.html">Mile To Kilometer</a></li>
+            <li><a href="MileToNauticalMile.html">Mile To Nautical Mile</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </div>
+
+    <div class="column">
+        <p>Formula + More</p>
+        <p>(32°F − 32) × 5/9 + 273.15 = 273.15K</p>
+        <p>The kelvin is the base unit of temperature in the International System of Units (SI), having the 
+            unit symbol K. It is named after the Belfast-born Glasgow University engineer and physicist 
+            William Thomson, 1st Baron Kelvin (1824–1907).
+
+        </p>
+    </div>
+
+    <script>
+
+    let fahrenheit = prompt("Enter the temperature in Fahrenheit.");
+    let fToKelvin = fahrenheit - 32 * 5/9 + 273.15;
+    alert("Celsius = "+ fToKelvin); 
+        
+    </script>
+
+</body>
+</html>
